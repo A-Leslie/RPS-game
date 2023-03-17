@@ -1,0 +1,13 @@
+.all{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    background-color:black ;
+    border: 2px solid bisque ; 
+    border-radius: 200px;
+    width: 350px;
+    height: 450px;
+    box-sizing: border-box; 
+    margin-top:10%;
+    margin-left: 35%;    
+}
+
