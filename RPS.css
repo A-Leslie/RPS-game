@@ -1,13 +1,68 @@
 .all{
-    text-align:center;
-    font-family:'Courier New', Courier, monospace;
-    background-color:black ;
-    border: 2px solid bisque ; 
-    border-radius: 200px;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(207, 204, 204);
     width: 350px;
     height: 450px;
-    box-sizing: border-box; 
-    margin-top:10%;
-    margin-left: 35%;    
+    margin-top:8%;
+    margin-left: 35%;
+    padding-top: 7%;
+    
+}
+h2{
+    padding-left:7%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: rgb(30, 30, 30);
+    background-image: url(https://i.pinimg.com/474x/9a/4d/d7/9a4dd7f1af730b143377080106ce9293.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-blend-mode:multiply;
 }
 
+button{
+    background-color: rgb(198, 198, 198);
+    color:rgb(0, 0, 0);
+    font:bolder;
+    border:3px solid rgb(198, 198, 198);
+    border-radius: 15%;
+    text-align:center
+}
+#buttons{
+    padding-left:8%
+}
+#result{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font:bolder;
+    
+}
+#user-choice{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#computer-choice{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+ 
